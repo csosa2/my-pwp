@@ -74,9 +74,6 @@
 				</li>
 			</ol>
 		</main>
-		<footer>
-
-		</footer>
 	</body>
 
 </html>
