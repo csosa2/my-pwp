@@ -32,7 +32,7 @@
 			<p><strong>Contact:</strong>This page will feature a simple contact form with name, email, subject and
 				message. </p>
 			<h3>Interaction Flow</h3>
-			<img src="">
+
 			<h2>Wireframes</h2>
 			<p>The site will feature 2 layouts:</p>
 			<ol>
