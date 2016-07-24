@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>My Personal Web Site</title>
+		<title>Milestone 1</title>
 	</head>
 	<body>
 		<header>
