@@ -32,7 +32,7 @@
 			<p><strong>Contact:</strong>This page will feature a simple contact form with name, email, subject and
 				message. </p>
 			<h3>Interaction Flow</h3>
-
+			<img src="images/pwpInteractionFlow.svg" alt="Interaction Flow">
 			<h2>Wireframes</h2>
 			<p>The site will feature 2 layouts:</p>
 			<ol>
@@ -40,9 +40,13 @@
 				<li>Content Page Layout</li>
 			</ol>
 			<h3>Home Page Layout: Mobile</h3>
+			<img src="images/pwp-home-mobile.png" alt="Mobile Home Page">
 			<h3>Content Page Layout: Mobile</h3>
+			<img src="images/pwp-content-mobile.png" alt="Mobile Content Page">
 			<h3>Home Page Layout: Desktop</h3>
+			<img src="images/pwp-home-desktop.png" alt="Desktop Home Page">
 			<h3>Content Page Layout: Desktop</h3>
+			<img src="images/pwp-content-desktop.png" alt="Desktop Content Page">
 		</main>
 	</body>
 </html>
