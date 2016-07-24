@@ -6,7 +6,8 @@
 	</head>
 	<body>
 		<header>
-			<h1>Christina Sosa: Personal Web Site</h1>
+			<h1>Milestone 1</h1>
+			<h2>Personal Web site: Christina Sosa</h2>
 		</header>
 		<main>
 			<h2>Purpose:</h2>
