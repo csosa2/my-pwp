@@ -31,24 +31,22 @@
 				my projects.</p>
 			<p><strong>Contact:</strong>This page will feature a simple contact form with name, email, subject and
 				message. </p>
-			<h3 align="center">Interaction Flow</h3>
-			<center><img src="images/pwpInteractionFlow.svg" alt="Interaction Flow" height="40%" width="40%"></center>
-			<div align="center">
+			<h3>Interaction Flow</h3>
+			<img src="images/pwpInteractionFlow.svg" alt="Interaction Flow" height="40%" width="40%">
 			<h2>Wireframes</h2>
 			<p>The site will feature 2 layouts:</p>
 			<ol>
 				<li>Home Page Layout</li>
 				<li>Content Page Layout</li>
 			</ol>
-			</div>
-			<h3 align="center">Home Page Layout: Mobile</h3>
-			<center><img src="images/pwp-home-mobile.png" alt="Mobile Home Page" height="40%" width="40%"></center>
-			<h3 align="center">Content Page Layout: Mobile</h3>
-			<center><img src="images/pwp-content-mobile.png" alt="Mobile Content Page" height="40%" width="40%"></center>
-			<h3 align="center">Home Page Layout: Desktop</h3>
-			<center><img src="images/pwp-home-desktop.png" alt="Desktop Home Page" height="40%" width="40%"></center>
-			<h3 align="center">Content Page Layout: Desktop</h3>
-			<center><img src="images/pwp-content-desktop.png" alt="Desktop Content Page" height="40%" width="40%"></center>
+			<h3>Home Page Layout: Mobile</h3>
+			<img src="images/pwp-home-mobile.png" alt="Mobile Home Page">
+			<h3>Content Page Layout: Mobile</h3>
+			<img src="images/pwp-content-mobile.png" alt="Mobile Content Page">
+			<h3>Home Page Layout: Desktop</h3>
+			<img src="images/pwp-home-desktop.png" alt="Desktop Home Page">
+			<h3>Content Page Layout: Desktop</h3>
+			<img src="images/pwp-content-desktop.png" alt="Desktop Content Page">
 		</main>
 	</body>
 </html>
