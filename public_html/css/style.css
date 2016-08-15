@@ -1,0 +1,51 @@
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+/*My CSS*/
+body,
+html {
+	background: whitesmoke;
+}
+.navbar.navbar-default {
+	padding: 10px 0;
+	background: whitesmoke;
+	border: none;
+}
+.navbar.navbar-default .navbar-nav > li > a,
+.navbar.navbar-default .navbar-brand {
+	color: dodgerblue;
+}
+.navbar.navbar-default {
+	border: none;
+	box-shadow: none;
+}
+
+
+.home {
+	display: flex;
+	height: 500px;
+}
+
+.profile {
+	width: 50%;
+}
+
+footer {
+	right: 90%;
+	background-color: black;
+}

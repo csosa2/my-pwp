@@ -11,7 +11,11 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
+
 		<!-- ADD OTHER CSS FILES HERE -->
+		<link rel="stylesheet" href="vanilla.css" type="text/css">
+		<link rel="stylesheet" href="bootstrap-social.css" type="text/css">
 
 		<!-- ADD YOUR CUSTOM CSS HERE -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -30,6 +34,9 @@
 
 		<!-- ADD YOUR CUSTOM JS FILES HERE -->
 		<script src="js/custom.js" type="text/javascript"></script>
+
+		<!--ADD FONT AWESOME-->
+		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 
 		<title>My Personal Website</title>
 	</head>
@@ -54,15 +61,16 @@
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 									</button>
-									<a class="navbar-brand" href="#">My Bootstrap Page</a>
+									<a class="navbar-brand" href="#">My Brand Logo Here</a>
 								</div>
 
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">Home</a></li>
-										<li><a href="about-me">About Me</a></li>
-										<li class="dropdown">
+										<li><a href="#">About Me</a></li>
+										<li><a href="#">Portfolio</a></li>
+										<li><a href="#">Contact Me</a> </li>
+										<!--<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moar Links <span class="caret"></span></a>
 											<ul class="dropdown-menu">
 												<li><a href="#">Action</a></li>
@@ -71,7 +79,7 @@
 												<li role="separator" class="divider"></li>
 												<li><a href="#">Separated link</a></li>
 											</ul>
-										</li>
+										</li>-->
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</nav>
@@ -84,13 +92,131 @@
 			<!-- begin main content -->
 			<main>
 				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">
+						</div>
+					</div>
+				</main>
+			</div>
+		<!--begine about me-->
+		<div class= "container">
+			<h2>About Me</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<p>Hello! My name is Christina and I'm a web developer.</p>
+				</div>
+				<div class="col-md-6">
+					<img class="profile" src="documentation/images/profile.jpg" alt="profile">
+				</div>
+			</div>
+		</div>
+		<!--begin portfolio-->
+		<div class="container">
+			<h2>Portfolio</h2>
+			<div class="row">
+				<div class="col-md-3">
+					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<div class="caption">
+						<h3>
+							Flek
+						</h3>
+						<p>
+							Web application to help connect artist with patrons of local culture and art.
+						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//google.com/" target="_blank"
+							class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/gsandoval49/flek" target="_blank"
+							class="btn btn-default pull-right"
+							role="button"><i class="fa fa-lg fa-github"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<div class="caption">
+						<h3>
+							Flek
+						</h3>
+						<p>
+							Web application to help connect artist with patrons of local culture and art.
+						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//google.com/" target="_blank"
+							class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/gsandoval49/flek" target="_blank"
+							class="btn btn-default pull-right"
+							role="button"><i class="fa fa-lg fa-github"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<div class="caption">
+						<h3>
+							Flek
+						</h3>
+						<p>
+							Web application to help connect artist with patrons of local culture and art.
+						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//google.com/" target="_blank"
+							class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/gsandoval49/flek" target="_blank"
+							class="btn btn-default pull-right"
+							role="button"><i class="fa fa-lg fa-github"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<div class="caption">
+						<h3>
+							Flek
+						</h3>
+						<p>
+							Web application to help connect artist with patrons of local culture and art.
+						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//google.com/" target="_blank"
+							class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/gsandoval49/flek" target="_blank"
+							class="btn btn-default pull-right"
+							role="button"><i class="fa fa-lg fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--begin contact form-->
+		<div class="container">
+			<h2>Contact Me</h2>
+			<div class="row">
 
+			</div>
+		</div>
 		<!-- begin footer here -->
 		<footer>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						2016
+						<!--TWITTER ICON-->
+						<a class="btn btn-social-icon btn-twitter">
+							<span class="fa fa-twitter"></span>
+						</a>
+						<!--GITHUB ICON-->
+						<a class="btn btn-social-icon btn-github">
+							<span class="fa fa-github"></span>
+						</a>
+						<!--LINKEDIN ICON-->
+						<a class="btn btn-social-icon btn-linkedin">
+							<span class="fa fa-linkedin"></span>
+						</a>
 					</div>
 				</div>
 			</div>
