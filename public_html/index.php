@@ -91,12 +91,13 @@
 
 			<!-- begin main content -->
 			<main>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">
-						</div>
-					</div>
+							<!--<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">-->
+<!--							<div class="col-md-12 map"><img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-thumbnail img-responsive"></div>-->
+							<div class="container-fluid">
+								<div class="row">
+									<img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-responsive">
+								</div>
+							</div>
 				</main>
 			</div>
 		<!--begine about me-->
@@ -104,10 +105,11 @@
 			<h2>About Me</h2>
 			<div class="row">
 				<div class="col-md-6">
-					<p>Hello! My name is Christina and I'm a web developer.</p>
+					<p>Hello! My name is Christina and I'm a web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet commodo mi non interdum. Vivamus sit amet purus id tortor maximus blandit. Nullam imperdiet in lorem ac viverra. Aliquam porttitor nulla id varius maximus. Donec mattis tempor tempus. Vestibulum tempus consectetur cursus. In efficitur mattis tortor, eget faucibus risus condimentum ut. Duis luctus lacinia vulputate. Praesent quis lacus pretium, tempor metus vitae, laoreet orci. Etiam eget consectetur purus.
+					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="profile" src="documentation/images/profile.jpg" alt="profile">
+					<img class="profile" src="images/profile.jpg" alt="profile">
 				</div>
 			</div>
 		</div>
@@ -116,7 +118,7 @@
 			<h2>Portfolio</h2>
 			<div class="row">
 				<div class="col-md-3">
-					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
 					<div class="caption">
 						<h3>
 							Flek
@@ -135,7 +137,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
 					<div class="caption">
 						<h3>
 							Flek
@@ -154,7 +156,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
 					<div class="caption">
 						<h3>
 							Flek
@@ -173,7 +175,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="documentation/images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
 					<div class="caption">
 						<h3>
 							Flek
