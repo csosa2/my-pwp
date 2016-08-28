@@ -17,6 +17,16 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 /*My CSS*/
+
+.jumbotron{
+	background:linear-gradient(rgba(100,40,0,0), rgba(0,0,0, 0)),url(../images/color-tech.jpeg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	margin: 0;
+}
+
 body,
 html {
 	background: whitesmoke;
@@ -28,7 +38,7 @@ html {
 }
 .navbar.navbar-default .navbar-nav > li > a,
 .navbar.navbar-default .navbar-brand {
-	color: dodgerblue;
+	color: black;
 }
 .navbar.navbar-default {
 	border: none;
@@ -36,16 +46,23 @@ html {
 }
 
 
-.home {
-	display: flex;
-	height: 500px;
+.home-image {
+	width: 100%;
 }
 
 .profile {
 	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
 	right: 90%;
 	background-color: black;
+	color: A5003D;
+}
+
+.btn {
+	color: 62ADAC;
 }

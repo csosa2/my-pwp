@@ -86,8 +86,8 @@
 										<!--<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moar Links <span class="caret"></span></a>
 											<ul class="dropdown-menu">
-												<li><a href="#">Action</a></li>
-												<li><a href="#">Another action</a></li>
+
+																		<li><a href="#">Another action</a></li>
 												<li><a href="#">Something else here</a></li>
 												<li role="separator" class="divider"></li>
 												<li><a href="#">Separated link</a></li>
@@ -104,8 +104,7 @@
 			<main>
 				<div class="row">
 					<div class="col-xs-12">
-
-						<div class="jumbotron text-right">
+						<div class="jumbotron text-center">
 							<h1>Christina Sosa</h1>
 							<p>Web Developer</p>
 						</div>
