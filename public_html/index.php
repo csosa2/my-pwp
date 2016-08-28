@@ -27,7 +27,18 @@
 		<![endif]-->
 
 		<!-- jQuery -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -40,6 +51,7 @@
 
 		<title>My Personal Website</title>
 	</head>
+	<!--Whole Body Container-->
 	<body class="sfooter">
 
 		<!-- begin sticky footer content -->
@@ -52,7 +64,7 @@
 						<div class="col-md-12">
 
 							<!-- begin navbar -->
-							<nav class="navbar navbar-default">
+							<nav class="navbar navbar-default navbar-fixtop">
 								<!-- Brand and toggle get grouped for better mobile display -->
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -67,6 +79,7 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right">
+										<li><a href="#">Home</a></li>
 										<li><a href="#">About Me</a></li>
 										<li><a href="#">Portfolio</a></li>
 										<li><a href="#">Contact Me</a> </li>
@@ -83,17 +96,21 @@
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</nav>
-							<div class="container-full-bg" style="background-image:url('https://unsplash.com/photos/VLdaxYyXJvw');">
-								<div class="container special">
-									<div class="jumbotron">Hello</div>
-								</div>
-						</div>
 					</div>
-				</div>
+				</div> <!-- / .container-->
 			</header>
 
 			<!-- begin main content -->
 			<main>
+				<div class="row">
+					<div class="col-xs-12">
+
+						<div class="jumbotron text-right">
+							<h1>Christina Sosa</h1>
+							<p>Web Developer</p>
+						</div>
+					</div>
+				</div>
 							<!--<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">-->
 <!--							<div class="col-md-12 map"><img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-thumbnail img-responsive"></div>-->
 <!--							<div class="container-fluid">
@@ -101,18 +118,18 @@
 									<img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-responsive">
 								</div>
 							</div>-->
-				</main>
+
 			</div>
 		<!--begine about me-->
 		<div class= "container">
-			<h2>About Me</h2>
+			<h2 class="heading">About Me</h2>
 			<div class="row">
 				<div class="col-md-6">
 					<p>Hello! My name is Christina and I'm a web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet commodo mi non interdum. Vivamus sit amet purus id tortor maximus blandit. Nullam imperdiet in lorem ac viverra. Aliquam porttitor nulla id varius maximus. Donec mattis tempor tempus. Vestibulum tempus consectetur cursus. In efficitur mattis tortor, eget faucibus risus condimentum ut. Duis luctus lacinia vulputate. Praesent quis lacus pretium, tempor metus vitae, laoreet orci. Etiam eget consectetur purus.
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="profile" src="images/profile1.jpg" alt="profile">
+					<img class="profile" src="images/profile1.jpeg" alt="profile">
 				</div>
 			</div>
 		</div>
@@ -202,9 +219,65 @@
 		<div class="container">
 			<h2>Contact Me</h2>
 			<div class="row">
+				<div class="col-md-3"></div>
+				<!--Begin Contact Form-->
+				<div class="col-md-6">
+				<form id="contact-form" action="php/mailer.php" method="post">
+					<div class="form-group">
+						<label for="name">Name <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Email <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+							</div>
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message">Message <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+							</div>
+							<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+						</div>
+					</div>
 
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				</form>
+			</div>
+				<div class="col-md-3"></div>
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
+				</div>
 			</div>
 		</div>
+		</main>
 		<!-- begin footer here -->
 		<footer>
 			<div class="container">
