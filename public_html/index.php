@@ -32,7 +32,7 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- ADD YOUR CUSTOM JS FILES HERE -->
+		<!--JS FILES HERE -->
 		<script src="js/custom.js" type="text/javascript"></script>
 
 		<!--ADD FONT AWESOME-->
@@ -83,7 +83,10 @@
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</nav>
-
+							<div class="container-full-bg" style="background-image:url('https://unsplash.com/photos/VLdaxYyXJvw');">
+								<div class="container special">
+									<div class="jumbotron">Hello</div>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -93,11 +96,11 @@
 			<main>
 							<!--<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">-->
 <!--							<div class="col-md-12 map"><img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-thumbnail img-responsive"></div>-->
-							<div class="container-fluid">
+<!--							<div class="container-fluid">
 								<div class="row">
 									<img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-responsive">
 								</div>
-							</div>
+							</div>-->
 				</main>
 			</div>
 		<!--begine about me-->
@@ -109,7 +112,7 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img class="profile" src="images/profile.jpg" alt="profile">
+					<img class="profile" src="images/profile1.jpg" alt="profile">
 				</div>
 			</div>
 		</div>

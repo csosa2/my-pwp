@@ -23,7 +23,7 @@ html {
 }
 .navbar.navbar-default {
 	padding: 10px 0;
-	background: whitesmoke;
+	background: transparent;
 	border: none;
 }
 .navbar.navbar-default .navbar-nav > li > a,
