@@ -57,6 +57,10 @@ html {
 	margin-right: auto;
 }
 
+.coming-soon {
+	height: 10em;
+}
+
 footer {
 	right: 90%;
 	background-color: black;

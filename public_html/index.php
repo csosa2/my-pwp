@@ -156,58 +156,58 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio coming-soon" src="images/coming-soon.jpg" alt="coming soon">
 					<div class="caption">
 						<h3>
-							Flek
+							Project
 						</h3>
 						<p>
-							Web application to help connect artist with patrons of local culture and art.
+							Fantastic website coming soon!
 						</p>
 					</div>
 					<div class="caption-padding">
 						<a href="//google.com/" target="_blank"
 							class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/gsandoval49/flek" target="_blank"
+						<a href="//github.com/csosa2" target="_blank"
 							class="btn btn-default pull-right"
 							role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio coming-soon" src="images/coming-soon.jpg" alt="coming soon">
 					<div class="caption">
 						<h3>
-							Flek
+							Project
 						</h3>
 						<p>
-							Web application to help connect artist with patrons of local culture and art.
+							Fantastic website coming soon!
 						</p>
 					</div>
 					<div class="caption-padding">
 						<a href="//google.com/" target="_blank"
 							class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/gsandoval49/flek" target="_blank"
+						<a href="//github.com/csosa2" target="_blank"
 							class="btn btn-default pull-right"
 							role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<img class="portfolio" src="images/LogoMakr.png" alt="flek logo">
+					<img class="portfolio coming-soon" src="images/coming-soon.jpg" alt="coming soon">
 					<div class="caption">
 						<h3>
-							Flek
+							Project
 						</h3>
 						<p>
-							Web application to help connect artist with patrons of local culture and art.
+							Fantastic website coming soon!
 						</p>
 					</div>
 					<div class="caption-padding">
 						<a href="//google.com/" target="_blank"
 							class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/gsandoval49/flek" target="_blank"
+						<a href="//github.com/csosa23" target="_blank"
 							class="btn btn-default pull-right"
 							role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
