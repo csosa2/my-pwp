@@ -13,10 +13,6 @@
 
 		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 
-		<!-- ADD OTHER CSS FILES HERE -->
-		<link rel="stylesheet" href="vanilla.css" type="text/css">
-		<link rel="stylesheet" href="bootstrap-social.css" type="text/css">
-
 		<!-- ADD YOUR CUSTOM CSS HERE -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
@@ -59,12 +55,9 @@
 
 			<!-- begin header -->
 			<header>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-
 							<!-- begin navbar -->
-							<nav class="navbar navbar-default navbar-fixtop">
+							<nav class="navbar navbar-default navbar-fixed-top">
+								<div class="container">
 								<!-- Brand and toggle get grouped for better mobile display -->
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -73,16 +66,16 @@
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 									</button>
-									<a class="navbar-brand" href="#">My Brand Logo Here</a>
+									<a class="navbar-brand page-scroll" href="#page-top">My Brand Logo Here</a>
 								</div>
 
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About Me</a></li>
-										<li><a href="#">Portfolio</a></li>
-										<li><a href="#">Contact Me</a> </li>
+										<li><a class = "page-scroll" href="#page-top">Home</a></li>
+										<li><a class = "page-scroll" href="#about">About Me</a></li>
+										<li><a class = "page-scroll" href="#portfolio">Portfolio</a></li>
+										<li><a class = "page-scroll" href="#contact">Contact Me</a> </li>
 										<!--<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moar Links <span class="caret"></span></a>
 											<ul class="dropdown-menu">
@@ -96,7 +89,7 @@
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</nav>
-					</div>
+				</div>
 				</div> <!-- / .container-->
 			</header>
 
@@ -120,7 +113,7 @@
 
 			</div>
 		<!--begine about me-->
-		<div class= "container">
+		<div id="about" class= "container about">
 			<h2 class="heading">About Me</h2>
 			<div class="row">
 				<div class="col-md-6">
@@ -133,7 +126,7 @@
 			</div>
 		</div>
 		<!--begin portfolio-->
-		<div class="container">
+		<div id="portoflio" class="container">
 			<h2>Portfolio</h2>
 			<div class="row">
 				<div class="col-md-3">
@@ -207,7 +200,7 @@
 						<a href="//google.com/" target="_blank"
 							class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/csosa23" target="_blank"
+						<a href="//github.com/csosa2" target="_blank"
 							class="btn btn-default pull-right"
 							role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
@@ -215,7 +208,7 @@
 			</div>
 		</div>
 		<!--begin contact form-->
-		<div class="container">
+		<div id="contact" class="container">
 			<h2>Contact Me</h2>
 			<div class="row">
 				<div class="col-md-3"></div>
