@@ -74,7 +74,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand page-scroll" href="#page-top">My Brand Logo Here</a>
+							<a class="navbar-brand page-scroll">My Brand Logo Here</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -102,7 +102,7 @@
 
 			<!-- begin main content -->
 			<main>
-				<div class="row">
+				<div id="page-top" class="row">
 					<div class="col-xs-12">
 						<div class="jumbotron text-center">
 							<h1>Christina Sosa</h1>
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 				<!--begin portfolio-->
-				<div id="portflio" class="container section">
+				<div id="portfolio" class="container section">
 					<h2 class="heading">Portfolio</h2>
 					<div class="row"> <!--row flex is not working here-->
 						<div class="col-md-3">
