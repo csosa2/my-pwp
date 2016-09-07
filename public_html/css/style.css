@@ -25,12 +25,21 @@ body { width: 100%;}
 	width: 100%;
 	color: white;
 	margin: 0;
+	min-height: 100vh;
+	/*display: flex;*/
+	align-items: center;
 }
 
 body,
 html {
 	background: whitesmoke;
 }
+
+.section {
+	min-height: 100vh;
+	padding-top: 5em;
+}
+
 .navbar.navbar-default {
 	padding: 10px 0;
 	background: transparent;
@@ -69,4 +78,39 @@ footer {
 
 .btn {
 	color: 62ADAC;
+}
+
+/********************************************
+* Flexbox Column Height Control
+* Equal height content boxes using Flexbox CSS
+*
+* Author: rlewis37
+********************************************/
+
+/*
+* add the class "row-flex" to each row that
+* houses columns that need to be equal height
+*
+* this example is set to work on the MD breakpoint
+* adjust @media query min-width if necessary
+*/
+
+.row-flex > div[class*="col-"] {
+	margin-bottom: 5px;
+}
+
+/* use the min-width of the appropriate breakpoint (this is set on md and lg)*/
+@media only screen and (min-width: 992px) {
+	.row-flex {
+		display: flex;
+		flex: 1 1 auto;
+		-webkit-flex-flow: row wrap;
+		align-content: flex-start;
+	}
+
+	.row-flex > div[class*="col-"] {
+		display: flex;
+		flex: 1 1 auto;
+		margin: -.2px;
+	}
 }
