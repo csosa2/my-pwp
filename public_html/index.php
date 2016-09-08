@@ -5,7 +5,6 @@ TODO: center jumbotron text
 TODO: make nav bar more visible
 TODO: flex box (github notes)
 TODO: flex image (github notes)
-TODO: get contact form working
 TODO: jquery scroll effects-->
 
 <html lang="en">
@@ -67,9 +66,10 @@ TODO: jquery scroll effects-->
 		<!-- begin sticky footer content -->
 		<div class="sfooter-content">
 
-			<!-- begin header -->
+			<!----------------------------------- HEADER --------------------------------------->
+
 			<header>
-				<!-- begin navbar -->
+				<!------------ BEGIN NAVBAR ------------->
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -81,7 +81,7 @@ TODO: jquery scroll effects-->
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand page-scroll">My Brand Logo Here</a>
+							<a class="navbar-brand page-scroll">Sosa Dev</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -107,7 +107,7 @@ TODO: jquery scroll effects-->
 				</nav>
 			</header>
 
-			<!-- begin main content -->
+			<!------------------------------- BEGIN MAIN CONTENT ---------------------------------->
 			<main>
 				<div id="page-top" class="row">
 					<div class="col-xs-12">
@@ -126,7 +126,8 @@ TODO: jquery scroll effects-->
 											</div>-->
 
 
-				<!--begine about me-->
+				<!-------------------------------ABOUT ME-------------------------------------->
+
 				<div id="about" class="container about section">
 					<h2 class="heading">About Me</h2>
 					<div class="row">
@@ -147,12 +148,15 @@ TODO: jquery scroll effects-->
 						</div>
 					</div>
 				</div>
-				<!--begin portfolio-->
-				<div id="portfolio" class="container section">
+
+				<!----------------------------------PORTFOLIO------------------------------------->
+
+				<div id="portfolio" class="section">
+					<div class="container">
 					<h2 class="heading">Portfolio</h2>
-					<div class="row"> <!--row flex is not working here-->
+					<div class="row row-flex"> <!--row flex is not working here-->
 						<div class="col-md-3">
-							<img class="portfolio-img" src="images/LogoMakr.png" alt="flek logo">
+							<img class="img-responsive portfolio-img" src="images/LogoMakr.png" alt="flek logo">
 							<div class="caption">
 								<h3>
 									Flek
@@ -228,8 +232,12 @@ TODO: jquery scroll effects-->
 							</div>
 						</div>
 					</div>
+					</div>
 				</div>
-				<!--begin contact form-->
+
+
+				<!------------------------- CONTACT FORM------------------------------------->
+
 				<div id="contact" class="container section">
 					<h2 class="heading">Contact Me</h2>
 					<div class="row">
@@ -294,7 +302,7 @@ TODO: jquery scroll effects-->
 				</div>
 			</main>
 		</div>
-		<!-- begin footer here -->
+		<!--------------------------------------- BEGIN FOOTER ------------------------------------>
 		<footer>
 			<div class="container">
 				<div class="row">
