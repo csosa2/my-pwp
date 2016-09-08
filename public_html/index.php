@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+
+<!--TODO: remove unnessecary links in head
+TODO: center jumbotron text
+TODO: make nav bar more visible
+TODO: flex box (github notes)
+TODO: flex image (github notes)
+TODO: get contact form working
+TODO: jquery scroll effects-->
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
@@ -12,8 +21,6 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 
 		<!-- ADD YOUR CUSTOM CSS HERE -->
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -49,7 +56,7 @@
 		<!--JS FILES HERE -->
 		<script src="js/custom.js" type="text/javascript"></script>
 
-		<!--ADD FONT AWESOME-->
+		<!--FONT AWESOME-->
 		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 
 		<title>My Personal Website</title>
@@ -236,7 +243,7 @@
 										<div class="input-group-addon">
 											<i class="fa fa-user" aria-hidden="true"></i>
 										</div>
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+										<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
 									</div>
 								</div>
 								<div class="form-group">
@@ -245,7 +252,7 @@
 										<div class="input-group-addon">
 											<i class="fa fa-envelope" aria-hidden="true"></i>
 										</div>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
 									</div>
 								</div>
 								<div class="form-group">
@@ -269,7 +276,7 @@
 								</div>
 
 								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+								<div class="g-recaptcha" data-sitekey="6LdRsykTAAAAAL1gIcXqzlvkDi5GrAS8H_19gNjq"></div>
 
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
