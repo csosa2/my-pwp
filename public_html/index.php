@@ -236,7 +236,7 @@ TODO: jquery scroll effects-->
 						<div class="col-md-3"></div>
 						<!--Begin Contact Form-->
 						<div class="col-md-6">
-							<form id="contact-form" action="php/mailer.php" method="post">
+							<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
 								<div class="form-group">
 									<label for="name">Name <span class="text-danger">*</span></label>
 									<div class="input-group">
