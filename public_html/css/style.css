@@ -35,11 +35,19 @@ body { width: 100%;}
 body,
 html {
 	background: whitesmoke;
+	font-family:'Abril Fatface', cursive;
+}
+p{
+	font-family: 'Cardo', serif;
+}
+
+.heading {
+	padding-bottom: 2em;
 }
 
 .section {
 	min-height: 100vh;
-	padding-top: 5em;
+	padding-top: 10em;
 }
 
 .navbar.navbar-default {
@@ -62,14 +70,14 @@ html {
 }
 
 .profile {
-	width: 50%;
+	width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .coming-soon {
-	height: 10em;
+	height: 9.25em;
 }
 
 footer {
@@ -97,12 +105,14 @@ footer {
 * adjust @media query min-width if necessary
 */
 
-.row-flex > div[class*="col-"] {
+/*.row-flex > div[class*="col-"] {
 	margin-bottom: 5px;
-}
+}*/
+
+/*Haven't been able to get row-flex to work*/
 
 /* use the min-width of the appropriate breakpoint (this is set on md and lg)*/
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
 	.row-flex {
 		display: flex;
 		flex: 1 1 auto;
@@ -115,4 +125,4 @@ footer {
 		flex: 1 1 auto;
 		margin: -.2px;
 	}
-}
+}*/

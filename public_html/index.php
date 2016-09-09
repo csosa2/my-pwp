@@ -52,11 +52,11 @@ TODO: jquery scroll effects-->
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-		<!--JS FILES HERE -->
-		<script src="js/custom.js" type="text/javascript"></script>
-
 		<!--FONT AWESOME-->
 		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
+
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cardo|Cormorant+Infant|Crimson+Text|Josefin+Sans|Poiret+One|Roboto+Mono|Ubuntu+Condensed" rel="stylesheet">
 
 		<title>My Personal Website</title>
 	</head>
@@ -81,7 +81,7 @@ TODO: jquery scroll effects-->
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand page-scroll">Sosa Dev</a>
+							<a class="navbar-brand page-scroll">Sosa Development</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -132,15 +132,16 @@ TODO: jquery scroll effects-->
 					<h2 class="heading">About Me</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Hello! My name is Christina and I'm a web developer. Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit. Vivamus laoreet commodo mi non interdum. Vivamus sit amet purus id tortor
-								maximus
-								blandit. Nullam imperdiet in lorem ac viverra. Aliquam porttitor nulla id varius maximus. Donec
-								mattis
-								tempor tempus. Vestibulum tempus consectetur cursus. In efficitur mattis tortor, eget faucibus
-								risus
-								condimentum ut. Duis luctus lacinia vulputate. Praesent quis lacus pretium, tempor metus vitae,
-								laoreet orci. Etiam eget consectetur purus.
+							<p>Hello! My name is Christina and I'm a web developer and founder of Sosa Development. I am a former clinical research coordinator who fell in love with learning to code. I am drawn to the blend of the technical and the creative. I am growing my skill set daily and enjoy conquering new challenges that arise with each unique project.
+							</p>
+							<p>
+								While a coordinator, I became skilled at working with teams and
+							</p>
+							<p>
+								I have proven I am a quick learner who can be self-motivated while working independently, as welll as foster productive working relationships as part of a group. I feel that my ability for organization and attention to detail, my communication skills and my love of coding, I can help you meet your goal of having a great web application.
+							</p>
+							<p>
+								If you'd like to learn more about me, please see my portfolio below, where you can see examples of my previous work.
 							</p>
 						</div>
 						<div class="col-md-6">
@@ -154,7 +155,7 @@ TODO: jquery scroll effects-->
 				<div id="portfolio" class="section">
 					<div class="container">
 					<h2 class="heading">Portfolio</h2>
-					<div class="row row-flex"> <!--row flex is not working here-->
+					<div class="row"> <!--row flex is not working here; so I didn't include it-->
 						<div class="col-md-3">
 							<img class="img-responsive portfolio-img" src="images/LogoMakr.png" alt="flek logo">
 							<div class="caption">
@@ -162,11 +163,11 @@ TODO: jquery scroll effects-->
 									Flek
 								</h3>
 								<p>
-									Web application to help connect artist with patrons of local culture and art.
+									Connecting artists with patrons of local culture and art.
 								</p>
 							</div>
 							<div class="caption-padding">
-								<a href="//google.com/" target="_blank"
+								<a href="//bootcamp-coders.cnm.edu/~csosa4/flek/public_html/" target="_blank"
 									class="btn btn-primary" role="button"><i
 										class="fa fa-lg fa-external-link"></i></a>
 								<a href="//github.com/gsandoval49/flek" target="_blank"
@@ -181,7 +182,7 @@ TODO: jquery scroll effects-->
 									Project
 								</h3>
 								<p>
-									Fantastic website coming soon!
+									Please check back soon. A fantastic webiste will be launching!
 								</p>
 							</div>
 							<div class="caption-padding">
@@ -200,7 +201,7 @@ TODO: jquery scroll effects-->
 									Project
 								</h3>
 								<p>
-									Fantastic website coming soon!
+									Please check back soon. A fantastic webiste will be launching!
 								</p>
 							</div>
 							<div class="caption-padding">
@@ -219,7 +220,7 @@ TODO: jquery scroll effects-->
 									Project
 								</h3>
 								<p>
-									Fantastic website coming soon!
+									Please check back soon. A fantastic webiste will be launching!
 								</p>
 							</div>
 							<div class="caption-padding">
