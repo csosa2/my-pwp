@@ -27,8 +27,8 @@ body { width: 100%;}
 	margin: 0;
 	min-height: 100vh;
 	/*display: flex;*/
-	position: static; /*not working*/
-	padding-top: 20%;/*not working*/
+	position: static; /*not working how I want*/
+	padding-top: 20%;/*not working how I want*/
 	align-items: center;
 }
 
@@ -51,19 +51,16 @@ p{
 }
 
 .navbar.navbar-default {
+	padding-right:50px !important;
 	padding: 10px 0;
 	background: transparent;
 	border: none;
+	box-shadow: none;
 }
 .navbar.navbar-default .navbar-nav > li > a,
 .navbar.navbar-default .navbar-brand {
 	color: black;
 }
-.navbar.navbar-default {
-	border: none;
-	box-shadow: none;
-}
-
 
 .home-image {
 	width: 100%;

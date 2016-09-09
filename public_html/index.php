@@ -17,10 +17,6 @@ TODO: jquery scroll effects-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 		<!-- ADD YOUR CUSTOM CSS HERE -->
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
@@ -56,7 +52,9 @@ TODO: jquery scroll effects-->
 		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 
 		<!--Google Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cardo|Cormorant+Infant|Crimson+Text|Josefin+Sans|Poiret+One|Roboto+Mono|Ubuntu+Condensed" rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cardo|Cormorant+Infant|Crimson+Text|Josefin+Sans|Poiret+One|Roboto+Mono|Ubuntu+Condensed"
+			rel="stylesheet">
 
 		<title>My Personal Website</title>
 	</head>
@@ -81,26 +79,16 @@ TODO: jquery scroll effects-->
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand page-scroll">Sosa Development</a>
+							<a class="navbar-brand page-scroll">| Sosa Development |</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
+							<ul class="nav navbar-nav navbar-left">
 								<li><a class="page-scroll" href="#page-top">Home</a></li>
 								<li><a class="page-scroll" href="#about">About Me</a></li>
 								<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 								<li><a class="page-scroll" href="#contact">Contact Me</a></li>
-								<!--<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moar Links <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-
-																<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li role="separator" class="divider"></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</li>-->
 							</ul>
 						</div>
 					</div>
@@ -117,14 +105,6 @@ TODO: jquery scroll effects-->
 						</div>
 					</div>
 				</div>
-				<!--<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">-->
-				<!--							<div class="col-md-12 map"><img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-thumbnail img-responsive"></div>-->
-				<!--							<div class="container-fluid">
-												<div class="row">
-													<img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-responsive">
-												</div>
-											</div>-->
-
 
 				<!-------------------------------ABOUT ME-------------------------------------->
 
@@ -132,16 +112,30 @@ TODO: jquery scroll effects-->
 					<h2 class="heading">About Me</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Hello! My name is Christina and I'm a web developer and founder of Sosa Development. I am a former clinical research coordinator who fell in love with learning to code. I am drawn to the blend of the technical and the creative. I am growing my skill set daily and enjoy conquering new challenges that arise with each unique project.
+							<p>Hello! My name is Christina and I'm a web developer and founder of Sosa Development. I am a
+								former clinical research coordinator who fell in love with learning to code. I am drawn to the
+								blend of the technical and the creative. I am growing my skill set daily and enjoy conquering
+								new challenges that arise with each unique project.
 							</p>
 							<p>
-								While a coordinator, I became skilled at working with teams and
+								While a coordinator, I became skilled at working with teams and meeting big deadlines. Part of
+								my responsibilities included creating online surveys through a platform using HTML and CSS as a
+								tool to format the survey. It was then that I discovered my passion for coding and solving
+								problems. A couple years later, I was placed on a team at work to help conceptualize and create
+								an application. After working with the team of developers to create functional solutions for
+								users, I decided that I wanted to pursue this field and attend an intensive coding bootcamp to
+								become a Full Stack Web Developer. It was a fantastic experience and I gained so much more than
+								just coding skills!
 							</p>
 							<p>
-								I have proven I am a quick learner who can be self-motivated while working independently, as welll as foster productive working relationships as part of a group. I feel that my ability for organization and attention to detail, my communication skills and my love of coding, I can help you meet your goal of having a great web application.
+								I have proven I am a quick learner who can be self-motivated while working independently, as
+								well as foster productive working relationships as part of a group. I feel that my ability for
+								organization and attention to detail, my communication skills and my love of coding, I can help
+								you meet your goal of having a great web application.
 							</p>
 							<p>
-								If you'd like to learn more about me, please see my portfolio below, where you can see examples of my previous work.
+								If you'd like to learn more about me, please see my portfolio below, where you can see examples
+								of my previous work.
 							</p>
 						</div>
 						<div class="col-md-6">
@@ -154,85 +148,85 @@ TODO: jquery scroll effects-->
 
 				<div id="portfolio" class="section">
 					<div class="container">
-					<h2 class="heading">Portfolio</h2>
-					<div class="row"> <!--row flex is not working here; so I didn't include it-->
-						<div class="col-md-3">
-							<img class="img-responsive portfolio-img" src="images/LogoMakr.png" alt="flek logo">
-							<div class="caption">
-								<h3>
-									Flek
-								</h3>
-								<p>
-									Connecting artists with patrons of local culture and art.
-								</p>
+						<h2 class="heading">Portfolio</h2>
+						<div class="row"> <!--row flex is not working here; so I didn't include it-->
+							<div class="col-md-3">
+								<img class="img-responsive portfolio-img" src="images/LogoMakr.png" alt="flek logo">
+								<div class="caption">
+									<h3>
+										Flek
+									</h3>
+									<p>
+										Connecting artists with patrons of local culture and art.
+									</p>
+								</div>
+								<div class="caption-padding">
+									<a href="//bootcamp-coders.cnm.edu/~csosa4/flek/public_html/" target="_blank"
+										class="btn btn-primary" role="button"><i
+											class="fa fa-lg fa-external-link"></i></a>
+									<a href="//github.com/gsandoval49/flek" target="_blank"
+										class="btn btn-default pull-right"
+										role="button"><i class="fa fa-lg fa-github"></i></a>
+								</div>
 							</div>
-							<div class="caption-padding">
-								<a href="//bootcamp-coders.cnm.edu/~csosa4/flek/public_html/" target="_blank"
-									class="btn btn-primary" role="button"><i
-										class="fa fa-lg fa-external-link"></i></a>
-								<a href="//github.com/gsandoval49/flek" target="_blank"
-									class="btn btn-default pull-right"
-									role="button"><i class="fa fa-lg fa-github"></i></a>
+							<div class="col-md-3">
+								<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
+								<div class="caption">
+									<h3>
+										Project
+									</h3>
+									<p>
+										Please check back soon. A fantastic webiste will be launching!
+									</p>
+								</div>
+								<div class="caption-padding">
+									<a href="//google.com/" target="_blank"
+										class="btn btn-primary" role="button"><i
+											class="fa fa-lg fa-external-link"></i></a>
+									<a href="//github.com/csosa2" target="_blank"
+										class="btn btn-default pull-right"
+										role="button"><i class="fa fa-lg fa-github"></i></a>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
+								<div class="caption">
+									<h3>
+										Project
+									</h3>
+									<p>
+										Please check back soon. A fantastic webiste will be launching!
+									</p>
+								</div>
+								<div class="caption-padding">
+									<a href="//google.com/" target="_blank"
+										class="btn btn-primary" role="button"><i
+											class="fa fa-lg fa-external-link"></i></a>
+									<a href="//github.com/csosa2" target="_blank"
+										class="btn btn-default pull-right"
+										role="button"><i class="fa fa-lg fa-github"></i></a>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
+								<div class="caption">
+									<h3>
+										Project
+									</h3>
+									<p>
+										Please check back soon. A fantastic webiste will be launching!
+									</p>
+								</div>
+								<div class="caption-padding">
+									<a href="//google.com/" target="_blank"
+										class="btn btn-primary" role="button"><i
+											class="fa fa-lg fa-external-link"></i></a>
+									<a href="//github.com/csosa2" target="_blank"
+										class="btn btn-default pull-right"
+										role="button"><i class="fa fa-lg fa-github"></i></a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
-							<div class="caption">
-								<h3>
-									Project
-								</h3>
-								<p>
-									Please check back soon. A fantastic webiste will be launching!
-								</p>
-							</div>
-							<div class="caption-padding">
-								<a href="//google.com/" target="_blank"
-									class="btn btn-primary" role="button"><i
-										class="fa fa-lg fa-external-link"></i></a>
-								<a href="//github.com/csosa2" target="_blank"
-									class="btn btn-default pull-right"
-									role="button"><i class="fa fa-lg fa-github"></i></a>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
-							<div class="caption">
-								<h3>
-									Project
-								</h3>
-								<p>
-									Please check back soon. A fantastic webiste will be launching!
-								</p>
-							</div>
-							<div class="caption-padding">
-								<a href="//google.com/" target="_blank"
-									class="btn btn-primary" role="button"><i
-										class="fa fa-lg fa-external-link"></i></a>
-								<a href="//github.com/csosa2" target="_blank"
-									class="btn btn-default pull-right"
-									role="button"><i class="fa fa-lg fa-github"></i></a>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<img class="portfolio-img coming-soon" src="images/coming-soon.jpg" alt="coming soon">
-							<div class="caption">
-								<h3>
-									Project
-								</h3>
-								<p>
-									Please check back soon. A fantastic webiste will be launching!
-								</p>
-							</div>
-							<div class="caption-padding">
-								<a href="//google.com/" target="_blank"
-									class="btn btn-primary" role="button"><i
-										class="fa fa-lg fa-external-link"></i></a>
-								<a href="//github.com/csosa2" target="_blank"
-									class="btn btn-default pull-right"
-									role="button"><i class="fa fa-lg fa-github"></i></a>
-							</div>
-						</div>
-					</div>
 					</div>
 				</div>
 
