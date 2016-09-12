@@ -24,12 +24,13 @@ body { width: 100%;}
 	background-size: cover;
 	width: 100%;
 	color: white;
-	margin: 0;
+	text-align: center;
+	/*margin: 0;*/
 	min-height: 100vh;
 	/*display: flex;*/
-	position: static; /*not working how I want*/
-	padding-top: 20%;/*not working how I want*/
-	align-items: center;
+	/*position: static; !*not working how I want*!
+	align-items: center;*/
+	padding-top: 20%; /*not working how I want*/
 }
 
 body,
@@ -59,7 +60,7 @@ p{
 }
 .navbar.navbar-default .navbar-nav > li > a,
 .navbar.navbar-default .navbar-brand {
-	color: black;
+	color: dodgerblue;
 }
 
 .home-image {
@@ -85,6 +86,11 @@ footer {
 
 .btn {
 	color: 62ADAC;
+}
+
+/*Trying out nav bar color change on scroll*/
+.nav-scroll {
+	transition-duration: 1s;
 }
 
 /********************************************
