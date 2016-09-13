@@ -19,7 +19,7 @@ body { width: 100%;}
 /*My CSS*/
 
 .jumbotron{
-	background:linear-gradient(rgba(100,40,0,0), rgba(0,0,0, 0)),url(../images/color-tech.jpeg) no-repeat center center;
+	background:linear-gradient(rgba(100,40,0,0), rgba(0,0,0, 0)),url(../images/banner.png) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
