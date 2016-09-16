@@ -93,8 +93,13 @@ footer {
 	transition-duration: 1s;
 }
 
+.g-recaptcha{
+	padding-bottom: 10px;
+}
 
-
+.btn {
+	padding-bottom: 10px;
+}
 /********************************************
 * Flexbox Column Height Control
 * Equal height content boxes using Flexbox CSS

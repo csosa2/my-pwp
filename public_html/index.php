@@ -103,6 +103,8 @@ TODO: jquery scroll effects-->
 						<div id="home" class="jumbotron text-center">
 							<h1>Christina Sosa</h1>
 							<p>Web Developer</p>
+							<br>
+							<i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
 						</div>
 					<!--</div>
 				</div>-->
