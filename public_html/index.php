@@ -86,7 +86,7 @@ TODO: jquery scroll effects-->
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-left">
-								<li><a class="page-scroll" href="#page-top">Home</a></li>
+								<li><a class="page-scroll" href="#home">Home</a></li>
 								<li><a class="page-scroll" href="#about">About Me</a></li>
 								<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 								<li><a class="page-scroll" href="#contact">Contact Me</a></li>
@@ -98,14 +98,14 @@ TODO: jquery scroll effects-->
 
 			<!------------------------------- BEGIN MAIN CONTENT ---------------------------------->
 			<main>
-				<div id="page-top" class="row">
-					<div class="col-xs-12">
-						<div class="jumbotron text-center">
+				<!--<div id="page-top" class="row">
+					<div class="col-xs-12">-->
+						<div id="home" class="jumbotron text-center">
 							<h1>Christina Sosa</h1>
 							<p>Web Developer</p>
 						</div>
-					</div>
-				</div>
+					<!--</div>
+				</div>-->
 
 				<!-------------------------------ABOUT ME-------------------------------------->
 
