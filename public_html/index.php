@@ -164,7 +164,7 @@ TODO: jquery scroll effects-->
 									</p>
 								</div>
 								<div class="caption-padding">
-									<a href="//bootcamp-coders.cnm.edu/~csosa4/flek/public_html/" target="_blank"
+									<a href="//flek.me" target="_blank"
 										class="btn btn-primary" role="button"><i
 											class="fa fa-lg fa-external-link"></i></a>
 									<a href="//github.com/gsandoval49/flek" target="_blank"
